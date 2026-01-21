@@ -36,6 +36,8 @@ print(distances)  # Printing the tuple
 miles, km = get_distance()  # Unpacking the returned tuple into two variables
 print(miles)  # Printing miles
 print(km)     # Printing kilometers
-
-
-
+ 
+try:
+    print(distances[2])  # This will raise an IndexError since there are only two items in the tuple
+except:
+    print('Oops, that does not exist')
