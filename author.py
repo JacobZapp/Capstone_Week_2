@@ -20,7 +20,7 @@ print(jane_austen)  # Output: Jane Austen
 
 
 jacob = Author('Jacob Zapata')
-print(jacob)
+print(jacob) 
    
     
     
